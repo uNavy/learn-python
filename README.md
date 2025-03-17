@@ -28,7 +28,7 @@ Each chapter focuses on a specific Python topic, with explanations and example c
 6️⃣ **For & Range Loops 🔄**  
    - Iterating using `for` loops and `range()`  
 
-7️⃣ **While Loop 🔂🎉**  
+7️⃣ **While Loop 🔂**  
    - Executing loops with `while` until a condition is met  
 
 8️⃣ **Break & Continue ⛔️**  
