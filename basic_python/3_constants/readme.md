@@ -49,10 +49,10 @@ circle area: 153.860000
 
 ---
 
-## ✅ Summary
-✔ Use **UPPER_CASE** for constants following **PEP 8**.\
-✔ Use `Final` from `typing` to indicate constants.\
-✔ Constants can be used in calculations but should not be reassigned.\
-✔ Use `print()` to display constant values.\
+## ✨ Summary
+✅ Use **UPPER_CASE** for constants following **PEP 8**.\
+✅ Use `Final` from `typing` to indicate constants.\
+✅ Constants can be used in calculations but should not be reassigned.\
+✅ Use `print()` to display constant values.
 
 🚀 **Happy Coding!** 🐍🎉

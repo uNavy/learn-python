@@ -117,11 +117,11 @@ These will be covered in separate chapters. 🚀
 
 ---
 
-## ✅ Summary
-✔ Python provides various data types for handling different types of values.\
-✔ Lists and tuples store ordered collections, while sets store unique elements.\
-✔ Dictionaries use key-value pairs.\
-✔ `None` represents an empty value.\
-✔ Use appropriate data types for optimal code performance.\
+## ✨ Summary
+✅ Python provides various data types for handling different types of values.\
+✅ Lists and tuples store ordered collections, while sets store unique elements.\
+✅ Dictionaries use key-value pairs.\
+✅ `None` represents an empty value.\
+✅ Use appropriate data types for optimal code performance.
 
 🚀 **Happy Coding!** 🐍🎉

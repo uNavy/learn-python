@@ -98,11 +98,11 @@ average score: 24.000000
 
 ---
 
-## ✅ Summary
+## ✨ Summary
 ✅ Variables store values in memory. \
 ✅ Use `snake_case` for variable names.\
 ✅ Variables can be updated and explicitly typed.\
 ✅ Declare multiple variables in one line.\
-✅ Perform calculations using variables.\
+✅ Perform calculations using variables.
 
 🚀 **Happy Coding!** 🐍🎉
