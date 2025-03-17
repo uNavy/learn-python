@@ -1,0 +1,41 @@
+# PYTHON VARIABLES
+# IN PROGRAMMING, A VARIABLE IS A CONTAINER FOR VALUES STORED IN MEMORY
+
+# VARIABLE DECLARATION
+# VARIABLES CAN BE DECLARED DIRECTLY USING THE ASSIGNMENT OPERATOR (=)
+name = "Navy"  # STRING
+hobby = 'Gym'  # STRING
+age = 18  # INTEGER
+male = True  # BOOLEAN
+
+# DISPLAY VARIABLE VALUES ON SCREEN USING THE print() FUNCTION
+print("==== BIODATA ====")
+print("name: %s" % (name))  # %s IS USED FOR STRING FORMATTING
+print("hobby: %s, age: %d, male: %r" % (hobby, age, male))  # %d FOR INTEGER, %r FOR BOOLEAN
+
+# VARIABLE NAMING CONVENTION
+# ACCORDING TO PEP 8, VARIABLES SHOULD USE SNAKE_CASE
+message = 'hello, good morning'  # PROPER NAMING EXAMPLE
+exam_score = 99.2  # FLOAT
+
+# ASSIGNMENT OPERATION
+# VARIABLES CAN BE UPDATED AFTER DECLARATION
+name = "Navy Git"
+age = 21  # AGE VALUE UPDATED
+
+# DECLARING VARIABLES WITH EXPLICIT DATA TYPES
+# PYTHON ALLOWS EXPLICIT TYPE ANNOTATIONS
+name: str = "Navy"
+hobby: str = 'Gym'
+age: int = 18
+male: bool = True
+exam_score: float = 99.2
+
+# DECLARING MULTIPLE VARIABLES IN ONE LINE
+value1, value2, value3, value4 = 24, 25, 26, 21
+
+# CALCULATING THE AVERAGE VALUE
+average_value = (value1 + value2 + value3 + value4) / 4
+
+# DISPLAY FLOAT VALUE USING %f FORMATTING
+print("average score: %f" % (average_value))

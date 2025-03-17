@@ -1,0 +1,98 @@
+# CONDITIONAL SELECTION IN PYTHON
+# CONDITIONAL SELECTION IS A BLOCK OF CODE THAT EXECUTES ONLY WHEN A SPECIFIED CRITERION IS MET.
+
+# IF STATEMENT
+# THE "IF" KEYWORD IS USED TO EXECUTE A BLOCK OF CODE ONLY IF A SPECIFIC CONDITION IS TRUE.
+grade = 100
+
+if grade == 100:
+    print("PERFECT")
+
+if grade == 90:
+    print("OK")
+    print("KEEP WORKING HARD!")
+
+# INDENTATION BLOCK
+# IN PYTHON, A BLOCK OF CODE IS INDICATED BY INDENTATION (FOUR SPACES RECOMMENDED BY PEP 8).
+if grade == 90:
+    print("OK")
+    print("KEEP WORKING HARD!")
+
+# ELIF STATEMENT
+# "ELIF" (SHORT FOR ELSE IF) ALLOWS ADDITIONAL CONDITIONAL CHECKS AFTER "IF".
+str_input = input("ENTER YOUR GRADE: ")
+grade = int(str_input)
+
+if grade == 100:
+    print("PERFECT")
+elif grade >= 85:
+    print("AWESOME")
+elif grade >= 65:
+    print("PASSED THE EXAM")
+
+# INPUT FUNCTION
+# "INPUT()" PROMPTS THE USER FOR INPUT AND RETURNS A STRING VALUE.
+# TYPE CONVERSION
+# "INT()" CONVERTS A STRING TO AN INTEGER.
+str_input = input("ENTER YOUR GRADE: ")
+grade = int(str_input)
+print("USER INPUT:", grade, type(grade))
+
+# ELSE STATEMENT
+# "ELSE" EXECUTES A BLOCK OF CODE IF NONE OF THE PREVIOUS CONDITIONS ARE MET.
+if grade == 100:
+    print("PERFECT")
+elif grade >= 85:
+    print("AWESOME")
+elif grade >= 65:
+    print("PASSED THE EXAM")
+else:
+    print("BELOW THE PASSING GRADE")
+
+# NESTED CONDITIONALS
+# CONDITIONAL STATEMENTS CAN BE NESTED WITHIN OTHER CONDITIONALS.
+if grade == 100:
+    print("PERFECT")
+elif grade >= 85:
+    print("AWESOME")
+elif grade >= 65:
+    print("PASSED THE EXAM")
+    if grade <= 70:
+        print("BUT YOU NEED TO IMPROVE IT!")
+    else:
+        print("WITH OK GRADE")
+else:
+    print("BELOW THE PASSING GRADE")
+
+# LOGICAL OPERATORS IN CONDITIONALS
+# "AND", "OR", AND "NOT" CAN BE USED IN CONDITIONAL STATEMENTS.
+grade = int(input("ENTER YOUR CURRENT GRADE: "))
+prev_grade = int(input("ENTER YOUR PREVIOUS GRADE: "))
+
+if grade >= 90 and prev_grade >= 65:
+    print("AWESOME")
+if grade >= 90 and prev_grade < 65:
+    print("AWESOME. YOU DEFINITELY WORKED HARD, RIGHT?")
+elif grade >= 65:
+    print("PASSED THE EXAM")
+else:
+    print("BELOW THE PASSING GRADE")
+
+if (grade >= 65 and not prev_grade >= 65) or (not grade >= 65 and prev_grade >= 65):
+    print("AT LEAST YOU PASSED ONE EXAM. GOOD JOB!")
+
+# ONE-LINE CONDITIONALS
+# SINGLE-LINE "IF" STATEMENTS FOR SIMPLE CONDITIONALS.
+if grade >= 65: print("PASSED THE EXAM")
+if grade < 65: print("BELOW THE PASSING GRADE")
+
+# TERNARY OPERATOR
+print("PASSED THE EXAM") if grade >= 65 else print("BELOW THE PASSING GRADE")
+
+# TERNARY OPERATOR WITH VARIABLE ASSIGNMENT
+message = "PASSED THE EXAM" if grade >= 65 else "BELOW THE PASSING GRADE"
+print(message)
+
+# PATTERN MATCHING
+# "MATCH" AND "CASE" CAN BE USED FOR ADVANCED PATTERN MATCHING.
+# FOR MORE DETAILS, REFER TO THE CHAPTER ON PATTERN MATCHING.

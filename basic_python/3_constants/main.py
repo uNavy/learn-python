@@ -1,0 +1,19 @@
+# PYTHON CONSTANTS
+# CONSTANTS ARE VARIABLES WHOSE VALUES ARE SET ONCE AND CANNOT BE CHANGED
+
+# IMPORTING Final FROM THE typing MODULE
+from typing import Final
+
+# DECLARING CONSTANTS
+PI: Final = 3.14  # FLOAT CONSTANT
+TOTAL_MONTH: Final[int] = 12  # INTEGER CONSTANT
+
+# DISPLAY CONSTANT VALUES
+print("pi: %f" % (PI))
+print("total months in a year: %d" % (TOTAL_MONTH))
+
+# ACCORDING TO PEP 8, CONSTANTS SHOULD BE WRITTEN IN UPPER_CASE
+# CONSTANTS CAN BE USED IN CALCULATIONS
+radius = 7
+circle_area = PI * radius ** 2
+print("circle area: %f" % (circle_area))
