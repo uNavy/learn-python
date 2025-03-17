@@ -21,7 +21,7 @@ my_list = [1, 2, 3, 4, 5]
 print(my_list)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 [1, 2, 3, 4, 5]
@@ -33,7 +33,7 @@ fruits = ['apple', 'banana', 'cherry']
 print(fruits)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 ['apple', 'banana', 'cherry']
@@ -45,7 +45,7 @@ diverse_list = [42, 'hello', 3.14, True]
 print(diverse_list)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 [42, 'hello', 3.14, True]
@@ -57,7 +57,7 @@ empty_list = []
 print(empty_list)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 []
@@ -76,7 +76,7 @@ for index, value in enumerate(my_list):
     print(f"INDEX: {index}, VALUE: {value}\n")
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 INDEX: 0, VALUE: 10
@@ -95,7 +95,7 @@ for item in string_list:
     print(f"FRUIT: {item}\n")
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 FRUIT: apple
@@ -114,7 +114,7 @@ nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print(nested_list[2][1])
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 8
@@ -130,7 +130,7 @@ print(nested_list[2][1])
 print(my_list[2])
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 30
@@ -142,7 +142,7 @@ print(my_list[2])
 print(3 in my_list)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 False
@@ -154,7 +154,7 @@ False
 print(my_list[1:3])
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 [20, 30]
@@ -167,7 +167,7 @@ my_list[0] = 99
 print(my_list)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 [99, 20, 30]
@@ -180,7 +180,7 @@ my_list.append(6)
 print(my_list)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 [99, 20, 30, 6]
@@ -191,7 +191,7 @@ my_list.extend([7, 8, 9])
 print(my_list)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 [99, 20, 30, 6, 7, 8, 9]
@@ -202,7 +202,7 @@ my_list.insert(2, 100)
 print(my_list)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 [99, 20, 100, 30, 6, 7, 8, 9]
@@ -220,7 +220,7 @@ del my_list[1]
 print(my_list)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 [99, 100, 6, 7, 8, 9]
@@ -231,7 +231,7 @@ my_list.clear()
 print(my_list)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 []
@@ -244,7 +244,7 @@ my_list = [10, 20, 30, 40, 50]
 print(my_list.index(30))
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 2
@@ -257,7 +257,7 @@ my_list.reverse()
 print(my_list)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 [50, 40, 30, 20, 10]
@@ -268,7 +268,7 @@ my_list.sort()
 print(my_list)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 [10, 20, 30, 40, 50]
@@ -279,7 +279,7 @@ my_list.sort(reverse=True)
 print(my_list)
 ```
 
-**Output:**
+🖥️ **Output:**
 
 ```
 [50, 40, 30, 20, 10]
