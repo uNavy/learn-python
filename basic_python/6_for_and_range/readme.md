@@ -127,7 +127,7 @@ for i in range(max_stars):
 
 ---  
 
-## ✨ Summary  
+### ✨ Summary  
 ✅ **For loops** are used to iterate over sequences.  
 ✅ **Range()** generates a sequence of numbers.  
 ✅ **Start, stop, and step** define the range of iteration.  

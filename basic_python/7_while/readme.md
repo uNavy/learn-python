@@ -90,7 +90,7 @@ for i in range(n):
 
 ---
 
-## ✨ Summary  
+### ✨ Summary  
 ✅ **While loop executes as long as the condition is True.**  
 ✅ **Use logical conditions to control the loop.**  
 ✅ **Python does not support `++` or `--`, use `+=` or `-=` instead.**  

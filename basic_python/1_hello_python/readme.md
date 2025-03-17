@@ -54,7 +54,7 @@ python main.py  # ▶️ Run Python script
 
 ---  
 
-## ✨ Summary 
+### ✨ Summary 
 ✅ Use `#` for **single-line comments**.  
 ✅ Use `'''` or `"""` for **multi-line comments**.  
 ✅ In Jupyter Notebook, `#%%` is used to **define executable cells**.   

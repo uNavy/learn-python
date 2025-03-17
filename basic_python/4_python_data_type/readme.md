@@ -117,7 +117,7 @@ These will be covered in separate chapters. 🚀
 
 ---
 
-## ✨ Summary
+### ✨ Summary
 ✅ Python provides various data types for handling different types of values.\
 ✅ Lists and tuples store ordered collections, while sets store unique elements.\
 ✅ Dictionaries use key-value pairs.\

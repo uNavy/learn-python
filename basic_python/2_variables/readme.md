@@ -98,7 +98,7 @@ average score: 24.000000
 
 ---
 
-## ✨ Summary
+### ✨ Summary
 ✅ Variables store values in memory. \
 ✅ Use `snake_case` for variable names.\
 ✅ Variables can be updated and explicitly typed.\

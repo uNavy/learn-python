@@ -150,7 +150,7 @@ For more details, refer to the chapter on **Pattern Matching**. 📖
 
 ---
 
-## ✨ Summary
+### ✨ Summary
 ✅ **if** statement executes a block of code only if the condition is **True**.  
 ✅ **elif** allows additional conditional checks.  
 ✅ **else** executes a block if no previous conditions are met.  

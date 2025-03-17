@@ -145,7 +145,7 @@ while True:  # Outer loop
 
 ---
 
-## ✨ Summary
+### Summary
 ✅ **Break** stops a loop when a condition is met.  
 ✅ **Continue** skips the current iteration and moves to the next one.  
 ✅ **Flags** can be used to simulate labeled loops.  
