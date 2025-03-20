@@ -9,6 +9,6 @@ def sum_then_print(*numbers):
         print("Current total: ", total)
     return(total)
 
-hasil = sum_then_print(2, 3, 4, 5, 4)
-print(hasil)
+result = sum_then_print(2, 3, 4, 5, 4)
+print(result)
 # output ➜ 18
